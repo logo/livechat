@@ -1,0 +1,18 @@
+
+/**
+ * LiveChat
+ */
+
+.logo[data-logo="LiveChat"] {
+  width: 2.061255431em;
+  /* (121.76/66.75) * (1+.13) - 0 */
+}
+
+.logo[data-logo="LiveChat"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 -.13em 0;
+}
+
+.logo[data-logo="LiveChat"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
